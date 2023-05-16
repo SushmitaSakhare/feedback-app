@@ -1,0 +1,109 @@
+/* Write your CSS code here. */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
+.feedback-container {
+  background-color: #fff;
+  width: 80%;
+  border-radius: 12px;
+  max-width: 600px;
+  padding: 24px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 20px;
+  text-align: center;
+  color: #0f172a;
+  font-weight: 500;
+}
+
+.emoji-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.emoji {
+  height: 45px;
+  width: 45px;
+  margin-bottom: 15px;
+}
+
+.emoji-name {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.love-emoji {
+  width: 60px;
+  height: 50px;
+  text-align: center;
+}
+
+.text {
+  font-family: 'roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #0f172a;
+  text-align: center;
+}
+
+.des {
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-container {
+    padding: 32px;
+  }
+
+  .emoji {
+    width: 70px;
+    height: 70px;
+  }
+
+  .emoji-name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .feedback-container {
+    padding: 64px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+}
